@@ -1,10 +1,11 @@
-const express = require('express');
-const app = express();
-const port = 8000
+process.env.NODE_ENV =
+  process.env.NODE_ENV &&
+  process.env.NODE_ENV.trim().toLowerCase() == "production"
+    ? "production"
+    : "development";
+const express = require("./config/express");
+const { logger } = require("./config/winston");
 
-app.get('/', (req, res) => res.send('trash how'))
-
-app.listen(port, () => console.log('8000번 포트 대기'));
-
-app.use('/api/user', require('./routes/userRouter'));
-
+const port = 3000;
+express().listen(port);
+logger.info(`트레시하우 API Server Start At Port ${port}`);
