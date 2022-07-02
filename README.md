@@ -6,3 +6,6 @@
 - ✅ mysql
 - ✅ express
 - ✅ winston
+
+ERD - version 1.0
+![트레시하우_ERD_v1](https://user-images.githubusercontent.com/42285463/176995388-4e08b52c-757d-4d48-8150-1cd7a175b50e.png)
