@@ -7,10 +7,11 @@
 - ✅ express
 - ✅ winston
 
-🎨 ERD - version 1.0 
+🎨 ERD - version 1.1
 
-![트레시하우_ERD_v1](https://user-images.githubusercontent.com/42285463/176995388-4e08b52c-757d-4d48-8150-1cd7a175b50e.png)
+![트레시하우_ERD_v1.1](https://user-images.githubusercontent.com/42285463/177599762-213bdf08-91ea-4fbb-9bd8-1108a53311bc.png)
+
 
 🔗 API 명세서
 
-https://endurable-sternum-f04.notion.site/API-07d36b32b2df4648bb96bb170bff0178
+https://miniature-smell-0dc.notion.site/API-a705ac0fcdbc415db9bd7dca4f858487
